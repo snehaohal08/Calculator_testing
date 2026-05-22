@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-22T00:46:24 IST" name="Suite" finished-at="2026-05-22T00:47:11 IST" duration-ms="47301">
+    <groups>
+    </groups>
+    <test started-at="2026-05-22T00:46:24 IST" name="Test" finished-at="2026-05-22T00:47:11 IST" duration-ms="47301">
+      <class name="calc.Calculator_project.Arithmatic2">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:calc.Calculator_project.Arithmatic2@6025e1b6]" started-at="2026-05-22T00:46:20 IST" name="openBrowser" finished-at="2026-05-22T00:46:24 IST" duration-ms="3907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="arithmetic()[pri:0, instance:calc.Calculator_project.Arithmatic2@6025e1b6]" started-at="2026-05-22T00:46:24 IST" name="arithmetic" finished-at="2026-05-22T00:46:39 IST" duration-ms="15023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arithmetic -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:calc.Calculator_project.Arithmatic2@6025e1b6]" started-at="2026-05-22T00:47:11 IST" name="closeBrowser" finished-at="2026-05-22T00:47:12 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- calc.Calculator_project.Arithmatic2 -->
+      <class name="calc.Calculator_project.Trigno">
+        <test-method signature="Trignomatric()[pri:0, instance:calc.Calculator_project.Trigno@1165b38]" started-at="2026-05-22T00:46:39 IST" name="Trignomatric" finished-at="2026-05-22T00:46:46 IST" duration-ms="7346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Trignomatric -->
+      </class> <!-- calc.Calculator_project.Trigno -->
+      <class name="calc.Calculator_project.footerLinks">
+        <test-method signature="footerlink()[pri:0, instance:calc.Calculator_project.footerLinks@7586beff]" started-at="2026-05-22T00:46:53 IST" name="footerlink" finished-at="2026-05-22T00:47:11 IST" duration-ms="17666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerlink -->
+      </class> <!-- calc.Calculator_project.footerLinks -->
+      <class name="calc.Calculator_project.log">
+        <test-method signature="log()[pri:4, instance:calc.Calculator_project.log@4c12331b]" started-at="2026-05-22T00:46:46 IST" name="log" finished-at="2026-05-22T00:46:53 IST" duration-ms="7144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+      </class> <!-- calc.Calculator_project.log -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
