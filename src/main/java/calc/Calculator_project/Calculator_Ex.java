@@ -242,22 +242,28 @@ public class Calculator_Ex {
 			Thread.sleep(1000);
 		}
     }
+    
+    void AllCal() throws InterruptedException {
+    	cd.findElement(By.xpath("//img[@alt='All Calculators']")).click();
+    	Thread.sleep(1000);
+    	cd.navigate().back();
+    }
     public static void main(String[] args) throws InterruptedException {
     	Calculator_Ex c1 = new Calculator_Ex();
 
         c1.openBrowser();
 
-//        c1.Arithmatic();
-//
-//        c1.Trignomatric();
-//        
-//        c1.Trig_asin();
-//        
-//        c1.Square();
-//        
-//        c1.Square2();
-//        
-//        c1.log();
+        c1.Arithmatic();
+
+        c1.Trignomatric();
+        
+        c1.Trig_asin();
+        
+        c1.Square();
+        
+        c1.Square2();
+        
+        c1.log();
         
 //       c1.healthCalculatorLinks();
         
@@ -268,8 +274,11 @@ public class Calculator_Ex {
         System.out.println("*****************************************************************");
         c1.othercal();
         System.out.println("*****************************************************************");
-//        c1.footerlink();
-
+        
+        c1.AllCal();
+        
+        c1.footerlink();
+        
         
         c1.cd.quit();
 	}
